@@ -4,6 +4,9 @@ use near_sdk::json_types::U128;
 use near_sdk_sim::{view, ContractAccount, UserAccount};
 use non_fungible_token::ContractContract as NftContract;
 
+
+
+
 fn mint_more(root: &UserAccount, nft: &ContractAccount<NftContract>) {
     helper_mint(
         "1".to_string(),
